@@ -1,0 +1,35 @@
+{
+  "name": "augustofgui",
+  "version": "6.0.0",
+  "description": "My NPX Business Card made with JS.",
+  "main": "src/index.js",
+  "bin": {
+    "augustofgui": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustofgui/npx-card.git"
+  },
+  "type": "module",
+  "keywords": [
+    "NPX",
+    "Business",
+    "Card"
+  ],
+  "author": "Augusto Ferreira Guilarducci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augustofgui/npx-card/issues"
+  },
+  "homepage": "https://github.com/augustofgui/npx-card#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0",
+    "clear": "^0.1.0",
+    "inquirer": "^8.2.0",
+    "open": "^8.4.0"
+  }
+}
