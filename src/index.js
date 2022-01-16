@@ -46,7 +46,6 @@ const data = {
     twitter: chalk.blue(" https://twitter.com/" + username),
     github: chalk.blue("  https://github.com/" + username),
     linkedin: chalk.blue("https://linkedin.com/in/" + username),
-    web: chalk.blue("     https://cameronthompson.io"),
     npx: chalk.red("npx") + " " + chalk.white(username),
 
     labelSchool: chalk.white.bold(" University:"),
@@ -54,7 +53,6 @@ const data = {
     labelTwitter: chalk.white.bold(" Twitter:"),
     labelGitHub: chalk.white.bold(" GitHub:"),
     labelLinkedIn: chalk.white.bold(" LinkedIn:"),
-    labelWeb: chalk.white.bold(" Web:"),
     labelCard: chalk.white.bold(" Card:"),
 
     quote: chalk.italic('"Coding is easy, you simply shouldn\'t try at all." ~ Me, sadly'),
@@ -71,11 +69,8 @@ const me = boxen(
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
         `${data.labelLinkedIn}  ${data.linkedin}`,
-        `${data.labelWeb}  ${data.web}`,
-        ``,
         ``,
         `${data.labelCard} ${data.npx}`,
-        ``,
         ``,
         `${data.quote}`,
     ].join("\n"),
